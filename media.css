@@ -1,0 +1,614 @@
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .nav{
+        width: 100%;
+        height: 5vh;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 15px ;
+        /* background-color: rgba(129, 120, 247, 0.886); */
+        z-index: 999;
+    }
+ 
+    .part2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .part2>h1{
+    font: 400 1.5vmax "roboto";
+    color: rgba(255, 235, 205);
+    cursor: pointer;
+    z-index: 99;
+    transition: .3s all ease-in-out;
+
+    }
+    .part2>h1:hover{
+        transform: scale(1.1);
+    }
+    .part2>button{
+        padding: 4px 8px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        background-color: rgba(255, 235, 205,);
+        font-size: 1vmax;
+    }
+    
+  }
+  @media (max-width: 600px) {
+    .nav{
+        width: 100%;
+        height: 5vh;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 15px ;
+        /* background-color: rgba(129, 120, 247, 0.886); */
+        z-index: 999;
+    }
+ 
+    .part2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+    }
+    .part2>h1{
+    font: 400 1.5vmax "roboto";
+    color: rgba(255, 235, 205);
+    cursor: pointer;
+    z-index: 99;
+    transition: .3s all ease-in-out;
+
+    }
+    .part2>h1:hover{
+        transform: scale(1.1);
+    }
+    .part2>button{
+        padding: 4px 8px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        background-color: rgba(255, 235, 205,);
+        font-size: 1vmax;
+    }
+    .b1middle>h1{
+      font: 900 9vmax "";
+      color:  rgba(222, 184, 135, 0.674);
+      z-index: 999;
+      margin-top: 0vmax;
+      margin-left: -5vmax;
+  }
+  .b1middle>h2{
+      font: 900 5vmax "";
+      color: rgba(222, 184, 135, 0.674);
+      z-index: 999;
+     
+  }
+  .box2{
+    width: 100%;
+    height: 65vh;
+    background-color: rgba(255, 235, 205, 0.386);
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.box2>h1{
+  font: 600 3vmax "roboto";
+  color:  rgb(81, 80, 80); 
+  margin-top: 5vmax;
+  
+}
+  .box2>p{
+    font: 400 1.5vmax "roboto";
+    color:  rgb(3, 3, 3); 
+    text-align: center;
+    width: 90%;
+    margin-top: 2vmax;
+    line-height: 20px;
+    text-align: left;
+}
+.box3{
+  width: 100%;
+  height: 235vh;
+  background-color: rgba(255, 235, 205, 0.386);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.b3top{
+height: 10vh;
+margin: 1vmax 0;
+}
+.b3top>h1{
+  font: 600 3vmax "roboto";
+  color:  rgb(81, 80, 80); 
+  margin-top: 1vmax;
+}
+.b3middle{
+  width: 100%;
+  height: 225vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.b3left,.b3right{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+}
+.b3left>h1,.b3right>h1{
+  font: 600 2.5vmax "roboto";
+  color:  rgb(81, 80, 80); 
+  margin: 2vmax 0;
+}
+.b3left>p,.b3right>p{
+  font: 600 1.5vmax "roboto";
+  color:  rgba(72, 71, 71,); 
+  margin-top: 1vmax;
+  width: 90%;
+  line-height: 20px;
+  
+}
+.b3left>img{
+ margin: 1vmax;
+  transition: 1s all ease-in-out;
+  cursor: pointer;
+}
+
+.b3img{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.b3img>img{
+  margin-top: 4.4vmax;
+  cursor: pointer;
+  transition: 1s all ease-in-out;
+}
+/* .b3img>img:hover,.b3left>img:hover{
+transform: scale(1.1);
+} */   
+
+.box4{
+  width: 100%;
+  height: 550vh;
+  background-color: rgba(255, 235, 205, 0.386);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.b4top{
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7vmax;
+}
+.b4top>h1{
+  font: 600 3vmax "roboto";
+  color:  rgb(81, 80, 80); 
+}
+.b4divs{
+  width: 100%;
+  height: 520vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+}
+.b41,.b42,.b43,.b44{
+  width: 90%;
+  height: 140vh;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5vmax;
+   
+}
+
+.b4one{
+  width: 100%;
+  height: inherit;
+  background-image: url(Laxmi\ Narayan\ Temple.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  transition: .5s all ease-in-out;
+}
+.b4two{
+  width: 100%;
+  height: inherit;
+  background-image: url(Wind\ and\ Waves11.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  transition: .5s all ease-in-out;
+}
+.b4three{
+  width: 100%;
+  height: inherit;
+  background-image: url(Vanvihar_3891.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  transition: .5s all ease-in-out;
+}
+
+.b4four{
+  width: 100%;
+  height: inherit;
+  background-image: url(Moti\ Masjid.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  transition: .5s all ease-in-out;
+}
+.b4content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.b4content>h1{
+  font: 600 2.7vmax "roboto";
+  color:  rgb(81, 80, 80); 
+  
+}
+.b4content>p{
+  font: 600 1.8vmax "roboto";
+  color:  rgba(72, 71, 71, ); 
+  margin-top: 1vmax;
+  width: 100%;
+  line-height: 20px;
+  
+}
+/* .b4one:hover,.b4two:hover,.b4three:hover,.b4four:hover {
+  transform: scale(1.1);
+} */
+.over1,.over2,.over3,.over4{
+  background-color: rgba(0, 0, 0, 0.596);
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  top: 0;
+  left: 0;
+  transition: .5s all ease-in-out;
+ 
+}
+
+.over1>button,.over2>button,.over3>button,.over4>button{
+  margin-top: 1vmax;
+  padding: 10px 25px;
+  border-radius: 25px;
+  background-color: rgba(255, 235, 205,);
+  cursor: pointer;
+  margin: 2vmax;
+}
+.b41:hover .over1,.b42:hover .over2,.b43:hover .over3,.b44:hover .over4{
+  transform: translateY(80%);
+}
+.box5{
+  width: 100%;
+  height: 230vh;
+  background-color: rgba(255, 235, 205, 0.386);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.b5top{
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10vmax;
+}
+.b5top>h1{
+  font: 600 3vmax "roboto";
+  color:  rgb(81, 80, 80); 
+  z-index: 999;
+  margin-top: -100vmax;
+}
+.b5divs{
+  width: 100%;
+  height: 160vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -25vmax;
+}
+.b5left1,.b5left2,.b5left3{
+  width: 100%;
+  height: 72vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: -5vmax;
+}
+.b51,.b52,.b53{
+  width: 100%;
+  overflow: hidden;
+ padding: 10px;
+}
+.b5one{
+  width: 100%;
+  height: 40vh;
+  background-image: url(206868807Bhojpur_Temple.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  transition: .5s all ease-in-out;
+}
+.b5two{
+  width: 100%;
+  height: 40vh;
+  background-image: url(shutterstock_1674160750.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  transition: .5s all ease-in-out;
+}
+.b5three{
+  width: 100%;
+  height: 40vh;
+  background-image: url(bhimbetka-caves-bhopal-entry-fee-timings-holidays-reviews-header.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  transition: .5s all ease-in-out;
+}
+.b5one:hover,.b5two:hover,.b5three:hover{
+  transform: scale(1.1);
+}
+.b51>h1,.b52>h1,.b53>h1{
+  font: 600 2.5vmax "roboto";
+  color:  rgb(81, 80, 80); 
+  margin-top: 1vmax;
+}
+.b51>p,.b52>p,.b53>p{
+  font: 600 1.5vmax "roboto";
+  color:  rgba(72, 71, 71, 0.6); 
+  margin-top: 1vmax;
+  width: 80%;
+  line-height: 15px;
+}
+.b51>button,.b52>button,.b53>button{
+  margin-top: 1vmax;
+  padding: 5px 13px;
+  border-radius: 25px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1vmax;
+}
+.box6{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -28vmax;
+}
+.b6top{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vmax;
+}
+.b6top>h1{
+  font: 600 3vmax "roboto";
+  color:  rgb(81, 80, 80); 
+  /* margin-top: 1vmax; */
+}
+.b6last{
+ width: 80%;
+ height: 36vh; 
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+
+}
+.b6one,.b6two,.b6three{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  border: .1px solid rgba(0, 0, 0, 0.285);
+  /* background-color: rgb(247, 250, 250); */
+}
+.b6one>h1,.b6three>h1{
+  text-transform: uppercase;
+  font: 600 2.5vmax "roboto";
+  color:  rgba(72, 71, 71, 0.6); 
+  margin-left: 1.5vmax;
+}
+.b6two>h1{
+  text-transform: uppercase;
+  font: 600 2.5vmax "roboto";
+  color:  rgba(72, 71, 71, 0.6); 
+  margin-right: 5vmax;
+}
+.b6one>img{
+  background-color: rgba(134, 90, 90, 0.187);
+  padding:07px 20px;
+  border-radius: 0px 15px 15px 0px;
+  height: 50px;
+}
+.b6two>img{
+  background-color: rgba(134, 90, 90, 0.187);
+  padding:07px 20px;
+  border-radius: 0px 15px 15px 0px;
+  height: 50px;
+}
+.b6three>img{
+  background-color: rgba(134, 90, 90, 0.187);
+  padding:0 20px;
+  border-radius: 0px 15px 15px 0px;
+  color: white;
+  height: 50px;
+}
+.box7{
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgba(255, 235, 205, 0.386); */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(2krsqlmvqk211.webp);
+  background-position: center;
+  background-size: cover;
+  filter:  contrast(100%);   
+}
+.b7box{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.614);
+  padding-top: 5vmax;
+}
+.b7one,.b7two,.b7three{
+  width: 30%;
+  height: inherit;
+}
+.b7one>h1,.b7two>h1,.b7three>h1{
+  color: rgb(255, 235, 205);
+  font: 500 2.2vmax "roboto";
+  margin: 10px;
+ 
+}
+.b7one>h2,.b7two>h2,.b7three>h2{
+   color: rgba(255, 235, 205, 0.562);
+   font: 500 1.5vmax "roboto";
+   margin: 15px 10px;
+   cursor: pointer;
+   transition: .3s all ease-in-out;
+}
+.b7one>h2:hover,.b7two>h2:hover,.b7three>h2:hover{
+  color: rgba(135, 208, 72, 0.562);
+}
+.b7last1{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.614);
+  flex-direction: column;
+}
+.b7last1>h1{
+  color: rgb(255, 235, 205);
+  font: 500 2vmax "roboto";
+  margin-left: 5vmax;
+  margin-top: -2vmax;
+}
+.i>i{
+  color: rgb(30, 30, 29);
+  font: 500 2vmax "roboto";
+  background-color: bisque;
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: .5s all ease-in-out;
+}
+.i>i:hover{
+  color: red;
+}
+.b7last1>p{
+  color: rgba(255, 235, 205, 0.365);
+  font: 100 1vmax "roboto";
+}
+
+}
